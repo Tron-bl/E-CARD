@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #090510;
+    font-family: Arial, sans-serif;
+    padding: 25px;
+}
+
+.ecard {
+    width: 380px;
+    padding: 40px 28px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    background: linear-gradient(
+        145deg,
+        #32105b,
+        #130b20,
+        #08050e
+    );
+    border: 1px solid #873bce;
+    box-shadow: 0 0 35px #7628b5;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #c77dff;
+}
+
+.subtitle {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 8px;
+    color: #d8b4fe;
+}
+
+.line {
+    width: 70px;
+    height: 3px;
+    background: #bc55ff;
+    margin: 25px auto;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #d5c9e0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+    margin: 25px 0;
+}
+
+.services span {
+    padding: 9px 12px;
+    border: 1px solid #9949d6;
+    border-radius: 20px;
+    font-size: 11px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact a {
+    padding: 12px;
+    background: #872dcc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    background: #bd68ff;
+    transform: scale(1.04);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 11px;
+    color: #b99acb;
+}
